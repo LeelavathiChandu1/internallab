@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       table{
+        border-collapse:collapse;
+       }
+       td{
+        padding: 10px;
+       } 
+       table{
+            margin-left: auto;
+            margin-right: auto;
+       }
+       .container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: salmon;
+       padding: 10px;
+       }
+       .item{
+            background-color: rgb(255, 201, 195);
+            border: 1px solid black;
+            text-align: center;
+       }
+       @media screen  and (min-width:400px){
+          body{
+            background-color: rgb(193, 246, 3);
+          }
+        
+       }
+       @media screen  and (min-width:2000px){
+          body{
+            background-color: rgb(6, 250, 250);
+          }
+        
+       }
+       
+    </style>
+</head>
+<body>
+    <table border="1px solid black">
+        <tr>
+        <th>Sno</th>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+    </tr>
+<tr>
+    <th>Name</th>
+    <td>Leela</td>
+    <td>Chandu</td>
+    <td>Sumanth</td>
+    <td>Prasad</td>
+</tr>
+</table>
+<div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">3</div>
+    <div class="item">3</div>
+    <div class="item">3</div>
+</div>
+
+
+</body>
+</html>
